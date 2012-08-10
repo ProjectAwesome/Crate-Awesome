@@ -10,6 +10,8 @@ app.configure(function(){
     app.register('.html', ejs);
     app.set('view engine', 'ejs');
     
+    app.use(express.static(__dirname + '/public'));
+    
     app.use(express.methodOverride());
     app.use(express.favicon(__dirname + '/public/favicon.ico', {maxAge: 31557600000}));
     app.use(app.router);
@@ -25,6 +27,7 @@ app.get('/spill/', function(req, res){
 
 app.get('/elina', function(req, res) {
     res.render('spill.html', { locals : { title: 'Spill Page' } });
-    });
+});
     
 app.listen(process.env.PORT);
+
