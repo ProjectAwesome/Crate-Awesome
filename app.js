@@ -15,9 +15,16 @@ app.configure(function(){
     app.use(app.router);
 });
 
-
 app.get('/', function(req, res){
     res.render('category.html', { locals : { title: 'Category Page' } });
 });
 
+app.get('/spill/', function(req, res){
+    res.render('spill.html', { locals : { title: 'Spill Page' } });
+});
+
+app.get('/elina', function(req, res) {
+    res.render('spill.html', { locals : { title: 'Spill Page' } });
+    });
+    
 app.listen(process.env.PORT);
