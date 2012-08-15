@@ -1,3 +1,65 @@
+/* FOR ALL DEVICES */
+.searchBar {
+    line-height:40px;
+    display:inline-block;
+    color:#000;
+    padding-left:20px;
+    background-color:#BBB;
+}
+.navbar-inner {
+    padding:0;
+}
+.navbar-inner .span7,
+.navbar-inner .span4,
+.navbar-inner .span5 {
+    margin-left:0;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    body {
+        font-size:0.8em;
+    }
+    .navbar .nav > li > a {
+        padding: 9px 10px 11px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    body {
+        font-size:0.8em;
+    }
+    .navbar .nav > li > a {
+        padding: 9px 10px 11px;
+        font-size:0.8em;
+    }
+    .navbar .divider-vertical {
+        margin:0 2px;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .navbar .nav > li > a {
+        padding: 9px 10px 11px;
+        font-size:1em;
+    }
+    .navbar .divider-vertical {
+        margin:0 2px;
+    }
+}
+
+ /* Large desktop */
+  @media (min-width: 1200px) {
+    .navbar .nav > li > a {
+        padding: 9px 30px 11px;
+    }  
+           
+}
+
+
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
@@ -37,24 +99,5 @@ and (orientation : landscape) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
-/* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }

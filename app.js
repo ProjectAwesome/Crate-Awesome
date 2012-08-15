@@ -33,4 +33,8 @@ app.get('/product', function(req, res) {
     res.render('product.html', { locals : { title: 'Product Page', cssFileName: 'product' } });
 });
 
+app.get('/family', function(req, res) {
+    res.render('family.html', { locals : { title: 'Family Page', cssFileName: 'family' } });
+});
+
 app.listen(process.env.PORT);
