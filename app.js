@@ -7,7 +7,7 @@ app.configure(function(){
     app.set('view engine', 'ejs');
     app.register('.html', ejs);
     
-    app.use(express.compress()); 
+    app.use(express.compress());
     app.use(express.bodyParser());
     app.use(express.methodOverride());
     app.use(express.static(__dirname + '/public'));
