@@ -4,3 +4,19 @@ Category - DT
 Spill - PJ and SG
 Product Page - EK and GC
 Footer - MG
+
+
+
+Presentation ideas:
+
+Hand out QR Codes
+
+What we sought to do
+What we did
+    - prototyped on the grid system
+    - how we did it (cloud development)
+    - 
+What we learned
+    - prototyping is fun
+    - we would like to do more of that
+    - 
