@@ -3301,6 +3301,7 @@ input[type="submit"].btn.btn-mini {
   padding-left: 12px;
   margin-right: 2px;
   line-height: 14px;
+  color:#000;
 }
 
 .nav-tabs {
@@ -3573,6 +3574,8 @@ input[type="submit"].btn.btn-mini {
   *z-index: 2;
   margin-bottom: 18px;
   overflow: visible;
+  clear:both;
+  float:left;
 }
 
 .navbar-inner {

@@ -1,10 +1,47 @@
 /* FOR ALL DEVICES */
+.whatDevice {
+    float:left;
+    padding:5px 0;
+    background-color:#F6E9E0;
+    margin:0 0 20px 0;
+    width:100%;
+}
+.whatDevice span {
+    margin-left:30px;
+}
+.mainContent {
+    float:left;
+    clear:both;
+}
 .searchBar {
     line-height:40px;
     display:inline-block;
     color:#000;
     padding-left:20px;
     background-color:#BBB;
+}
+.searchBarPhone {
+    line-height:36px;
+    display:block;
+    color:#000;
+    padding-left:0;
+    background-color:#DDD;
+    margin-bottom:5px;
+}
+.searchBarPhone input.searchInput {
+    margin-top:4px;
+}
+.searchBarPhone .searchTitle {
+    margin:0 10px 0 12px;
+}
+.searchTitle {
+    float:left;
+    font-size:14px;
+    margin:0 10px 0 35px;
+}
+input.searchInput {
+    float:left;
+    margin-top:6px;
 }
 .navbar-inner {
     padding:0;
@@ -14,6 +51,15 @@
 .navbar-inner .span5 {
     margin-left:0;
 }
+.navbar .nav {
+    margin-left:30px;
+}
+.phoneNav {
+    clear:both;
+}
+.phoneNav ul.nav {
+    clear:both;
+}
 .footer{
     color: #f56017;
     /*background:url(/Assets/Backgrounds/HeaderFooterSprite_061812.png) no-repeat scroll -44px -18px;*/
@@ -22,6 +68,44 @@
     height:19px;
     overflow:hidden;
 }
+#normalHeader {
+    height: 50px;
+    overflow: hidden;
+    float:left;
+    clear:both;
+}
+#normalHeader .coBranding {
+    float: right;
+    color: #B5B7BB;
+    font: bold 10px/19px Helvetica,Arial,sans-serif;
+    text-align: right;
+    height: 19px;
+    padding: 7px 15px 7px 0;
+}
+#normalHeader .coBranding span {
+    float: left;
+    width: auto;
+    height: 19px;
+    margin: 0;
+    padding: 0;
+}
+#normalHeader .coBranding .cb2, #normalFooter li a.cb2 {
+    color: #F56017;
+    background: url(//a.c-b.co/Assets/Backgrounds/HeaderFooterSprite_061812.png) no-repeat scroll -44px -18px;
+    float: left;
+    width: 52px;
+    height: 19px;
+    overflow: hidden;
+}
+#normalHeader .coBranding .landOfNod, #normalFooter li a.landOfNod {
+    color: #7595BC;
+    background: url(//a.c-b.co/Assets/Backgrounds/HeaderFooterSprite_061812.png) no-repeat scroll -44px -43px;
+    float: left;
+    width: 74px;
+    height: 19px;
+    overflow: hidden;
+}
+
 /* Landscape phones and down */
 @media (max-width: 480px) { 
     body {
@@ -41,7 +125,7 @@
         font-size:0.8em;
     }
     .navbar .nav > li > a {
-        padding: 9px 10px 11px;
+        padding: 10px 10px 11px;
         font-size:0.8em;
     }
     .navbar .divider-vertical {
@@ -55,23 +139,36 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
     .navbar .nav > li > a {
-        padding: 9px 10px 11px;
+        padding: 10px 10px 11px;
         font-size:1em;
     }
     .navbar .divider-vertical {
         margin:0 2px;
+    }
+    .searchTitle {
+        margin-left:20px;
+    }
+    .navbar .nav {
+        margin-left:15px;
     }
 }
 
  /* Large desktop */
   @media (min-width: 1200px) {
     .navbar .nav > li > a {
-        padding: 9px 30px 11px;
+        padding: 10px 30px 11px;
     }  
+    .searchTitle {
+        margin-left:55px;
+    }
+    .navbar .nav {
+        margin-left:40px;
+    }
            
 }
 
-
+/* ------------------------- NOT USING FOR NOW BELOW------------------------ */
+/* -------------------------------------------------------------------- */
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
