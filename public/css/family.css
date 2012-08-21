@@ -1,3 +1,52 @@
 #writeAReview {
 font-weight: bold;
 }
+
+.productPriceContainer .salePrice, .productPriceContainer .sale {
+color: #EA2D15;
+font-size: 14px;
+font-weight: bold;
+}
+
+.regPrice {
+color: #000;
+}
+
+.sku {
+color: black;
+float: right;
+font-size: 12px;
+margin-bottom: 0;
+padding: 0;
+clear: none;
+font-weight: normal;
+}
+
+a.checkOnline, .cssAvailability span {
+color: black!important;
+font-weight: bold;
+}
+
+.availMsg {
+padding: 20px 0 10px;
+border-top: 1px solid #E6E7E9;
+}
+
+.availMsg .promoMessage a {
+color: #EA2D15;
+font-size: 12px;
+}
+
+a.drawerBoxHeader {
+color: black;
+font: normal 15px/40px Helvetica,Arial,sans-serif;
+}
+
+
+
+
+.shopBtns a {
+float: left;
+margin-right: 10px;
+width: auto;
+}
