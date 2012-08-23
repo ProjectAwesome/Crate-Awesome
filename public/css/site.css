@@ -111,6 +111,7 @@ input.searchInput {
     width: 185px;
     min-height: 142px;
     padding:0 0 0 15px;
+    list-style:none;
 }
 #normalFooter li {
     float:left;
@@ -142,6 +143,135 @@ input.searchInput {
     background-position: 0px .2em;
     padding: 0px 0px 0px 14px;
 }
+#normalHeader .coBranding .cb2,
+#normalFooter li a.cb2{
+    color: #f56017;
+    background:url(//a.c-b.co/Assets/Backgrounds/HeaderFooterSprite_061812.png) no-repeat scroll -44px -18px;
+    float:left;
+    width:52px;
+    height:19px;
+    overflow:hidden;
+}
+#normalHeader .coBranding .landOfNod,
+#normalFooter li a.landOfNod{
+    color: #7595bc;
+    background: url(//a.c-b.co/Assets/Backgrounds/HeaderFooterSprite_061812.png) no-repeat scroll -44px -43px;
+    float:left;
+    width:74px;
+    height:19px;
+    overflow:hidden;
+}
+#normalFooter .iconMobile {
+    background: url(//a.c-b.co/Assets/Backgrounds/HeaderFooterSprite_061812.png) -400px 2px no-repeat;
+}
+#normalFooter .iconFacebook {
+    background: url(//a.c-b.co/Assets/Backgrounds/HeaderFooterSprite_061812.png) -400px -17px no-repeat;
+}
+#normalFooter .iconTwitter {
+    background: url(//a.c-b.co/Assets/Backgrounds/HeaderFooterSprite_061812.png) -400px -35px no-repeat;
+}
+#normalFooter .iconPinterest{
+    background: url(//a.c-b.co/Assets/Backgrounds/HeaderFooterSprite_061812.png) -400px -54px no-repeat;
+}
+#normalFooter .iconReview {
+    background: url(//a.c-b.co/Assets/Backgrounds/HeaderFooterSprite_061812.png) -400px -73px no-repeat;
+}
+#normalFooter .ourBrands  {
+    margin: 20px 0px 9px 0px;
+    color:#000;
+}
+#normalFooter .delimiter {
+    float:left;
+    clear:none;
+    width: 17px;
+    height: 17px;
+    background: url(//a.c-b.co/Assets/Backgrounds/DelimiterHexE6E7E9.png) repeat-y 50%;
+}
+
+#normalFooter .subFooter {
+    border-top:solid 2px #E6E7E9;
+	margin-top:20px;
+	padding-bottom:25px;
+}
+#normalFooter .copyright,
+#normalFooter .copyright a,
+#normalFooter .copyright a:link,
+#normalFooter .copyright a:active,
+#normalFooter .copyright a:visited {
+    color: #b5b7bb;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: normal;
+}
+#normalFooter .copyright {
+    display:inline;
+    float:left;
+    width:958px;
+    height:20px;
+    background: url(//a.c-b.co/Assets/Backgrounds/DelimiterHexE6E7E9.png) repeat-x;
+    margin: 0 20px 0 20px;
+    padding:8px 0 0 0;
+}
+#normalFooter .copyright .home:link,
+#normalFooter .copyright .home:visited,
+#normalFooter .copyright .myCart:link,
+#normalFooter .copyright .myCart:visited {
+	font-weight:bold;
+	color:#000;
+}
+#normalFooter .footQuickLinks {
+	width:195px;
+}
+#normalFooter .footQuickLinks a,
+#normalFooter .footQuickLinks span {
+	float:left;
+	position:relative;
+	left:-10px; /* go west, young logo */
+	padding-right:5px;
+}
+#normalFooter .footQuickLinks .homeImg {
+	background: url(//a.c-b.co/Assets/Backgrounds/HeaderFooterSprite_061812.png) no-repeat scroll -44px 0;
+	width:80px;
+	height:14px;
+	margin-right:17px;
+}
+#normalFooter .footQuickLinks .home span {
+	display:inline;
+	float:none;
+	left:0;
+	padding-right:0;
+}
+#normalFooter .cbOnFBWrap {
+    padding:15px 0 0 10px;
+	overflow:hidden;
+	width:198px;
+	float:right;
+}
+#normalFooter a.fbName,
+#normalFooter a.fbName:link,
+#normalFooter a.fbName:visited,
+#normalFooter a.fbName:active {
+    color: #3B5998;
+    font:bold 14px/15px "lucida grande", tahoma, verdana, arial, sans-serif;
+    float:left;
+    width:125px;
+    height:20px;
+}
+.fbImg {
+    background:url(//a.c-b.co/Assets/Backgrounds/HeaderFooterSprite_061812.png) no-repeat scroll 0 0;
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 4px 0;
+}
+#normalFooter #fb-like {
+    float: left;
+    height: 21px;
+    width: 85px;
+    margin: 0;
+    padding: 0;
+}
+
 /* Landscape phones and down */
 @media (max-width: 480px) { 
     body {
@@ -151,7 +281,7 @@ input.searchInput {
         padding: 9px 10px 11px;
     }
     .footer {
-        visibility:hidden;
+        /*visibility:hidden;*/
     }
 }
 
@@ -168,7 +298,7 @@ input.searchInput {
         margin:0 2px;
     }
     .footer {
-        visibility:hidden;
+        /*visibility:hidden;*/
     }
 }
 
