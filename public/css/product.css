@@ -1,3 +1,24 @@
 .width25 {
     width: 25px;   
 }
+
+.productDisplayHeader {
+font: bold 16px/16px Helvetica,Arial,sans-serif;
+color: #222;
+background: #F6F6F6;
+float: left;
+width: 983px;
+height: 16px;
+margin: 0;
+padding: 15px 0 15px 15px;
+border-top: 2px solid #E6E7E9;
+border-bottom: 2px solid #E6E7E9;
+}
+
+.box {
+height: 292px;
+width: 200px;
+margin: 0;
+background: transparent;
+position: relative;
+}
