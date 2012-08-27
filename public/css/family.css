@@ -8,9 +8,28 @@ font-size: 14px;
 font-weight: bold;
 }
 
+.buttonPanel{
+  margin: 5px 0px;   
+}
+
 .regPrice {
 color: #000;
 }
+
+input.quantity {
+border: solid 1px #BCBCBC;
+-webkit-box-shadow: 0 2px 6px #ECECEC inset;
+box-shadow: 0 2px 6px #ECECEC inset;
+box-sizing: content-box;
+color: black;
+font-size: 13px;
+height: 28px;
+line-height: 28px;
+margin: 0;
+padding: 0 5px;
+width: 50%;
+}
+
 
 .sku {
 color: black;
@@ -29,7 +48,6 @@ font-weight: bold;
 
 .availMsg {
 padding: 20px 0 10px;
-border-top: 1px solid #E6E7E9;
 }
 
 .availMsg .promoMessage a {
@@ -42,11 +60,49 @@ color: black;
 font: normal 15px/40px Helvetica,Arial,sans-serif;
 }
 
+.listView {
 
+border-bottom: solid 2px #E6E7E9;
 
+}
 
 .shopBtns a {
 float: left;
 margin-right: 10px;
 width: auto;
+}
+
+/*Buttons
+*/
+
+.btnAddToCart3.withArrow span {
+background-image: url(//a.c-b.co/Assets/Buttons/btnArrow-A3-down.png);
+background-repeat: no-repeat;
+background-position: right center;
+padding-right: 25px;
+width: auto;
+}
+
+
+
+
+
+/*
+Line Items
+*/
+
+h2.productDisplayHeader {
+font: bold 16px/16px Helvetica,Arial,sans-serif;
+color: #222;
+background: #F6F6F6;
+height: 16px;
+margin: 0;
+padding: 15px 0 15px 15px;
+border-top: 2px solid #E6E7E9;
+border-bottom: 2px solid #E6E7E9;
+}
+
+.productTitle {
+font: bold 13px/18px Helvetica,Arial,sans-serif;
+color: black !important;
 }

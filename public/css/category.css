@@ -1,0 +1,148 @@
+.width100p {
+    width: 100%;
+    float: left;
+    position: relative;  
+    clear: both;
+}
+.width20p {
+    width: 20%;
+    float: left;
+    position: relative; 
+    display: inline;
+}
+.width30p {
+    width: 30%;
+    float: left;
+    position: relative; 
+    display: inline;
+}
+.width40p {
+    width: 40%;
+    float: left;
+    position: relative; 
+    display: inline;
+}
+.width50p {
+    width: 50%;
+    float: left;
+    position: relative; 
+    display: inline;
+}
+.width60p {
+    width: 60%;
+    float: left;
+    position: relative; 
+    display: inline;
+}
+.width70p {
+    width: 70%;
+    float: left;
+    position: relative; 
+    display: inline;
+}
+.width80p {
+    width: 70%;
+    float: left;
+    position: relative; 
+    display: inline;
+}
+#categoryFeature p{
+    display: block;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+#categoryFeature p a{
+    display: block;    
+    float: left;
+    width: 100%;
+}
+#categoryFeature p a span{    
+    float: left;  
+    color: #000;
+    font: bold 1.5em/2em Helvetica,Arial,sans-serif;
+    /*background-color: RGBA(132,128,127, .7);*/ 
+    height: 80px;     
+    overflow: hidden;
+    width: 100%; 
+    border-left: 5px solid #FFF;
+    background: -moz-linear-gradient(top, #d6ddde 0%, #bfbdbd 99%, #6c966c 100%, #8d717f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6ddde), color-stop(99%,#bfbdbd), color-stop(100%,#6c966c), color-stop(100%,#8d717f)); /* Chrome,Safari4+ */  
+    -moz-border-radius-bottomright: 5px 10px;
+    border-bottom-right-radius: 5px 10px;
+    -moz-border-radius-topmright: 5px 10px;
+    border-top-right-radius: 5px 10px;
+}
+#categoryFeature p a:hover span{  
+    background: #84807F;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .width20p {
+        background: -moz-linear-gradient(top, #d6ddde 0%, #bfbdbd 99%, #6c966c 100%, #8d717f 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6ddde), color-stop(99%,#bfbdbd), color-stop(100%,#6c966c), color-stop(100%,#8d717f)); /* Chrome,Safari4+ */ 
+        width: 24.7%;
+        height: 120px;
+        margin: 0 3px 3px 0;
+    }
+    h2 {
+        font: bold 1.2em/2.5em Helvetica,Arial,sans-serif;
+        color: black;
+        vertical-align: bottom;
+        padding: 75px 0 5px 10px;
+    }
+    h2 a {         
+        color: black;   
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .width20p {       
+        background: -moz-linear-gradient(top, #d6ddde 0%, #bfbdbd 99%, #6c966c 100%, #8d717f 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6ddde), color-stop(99%,#bfbdbd), color-stop(100%,#6c966c), color-stop(100%,#8d717f)); /* Chrome,Safari4+ */ 
+        width: 24.7%;
+        height: 120px;
+        margin: 0 3px 3px 0;
+    }
+    h2 {         
+        font: bold 1.2em/2.5em Helvetica,Arial,sans-serif;
+        color: black;
+        vertical-align: bottom;
+        padding: 75px 0 5px 15px;
+    }
+    h2 a {         
+        color: black;   
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    .width20p {       
+        background: -moz-linear-gradient(top, #d6ddde 0%, #bfbdbd 99%, #6c966c 100%, #8d717f 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6ddde), color-stop(99%,#bfbdbd), color-stop(100%,#6c966c), color-stop(100%,#8d717f)); /* Chrome,Safari4+ */ 
+        width: 100%;
+        height: 35px;
+        margin: 0 3px 3px 0;
+    }
+    h2 {         
+        font: bold 1.2em/2.5em Helvetica,Arial,sans-serif;
+        color: black;
+        vertical-align: bottom;
+        padding: 2px;
+    }
+    h2 a {         
+        color: black;   
+    }
+    #categoryFeature{ 
+        display: none;
+    }
+    #myCarousel {
+        width: 100%;
+    }
+}

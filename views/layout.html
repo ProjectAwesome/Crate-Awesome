@@ -11,7 +11,10 @@
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
 <script type="text/javascript" src="http://www.bootstrapcdn.com/twitter-bootstrap/2.0.4/js/bootstrap.js"></script>
-
+<script type="text/javascript" src="http://j.c-b.co/js/jquery.js"></script>
+<script type="text/javascript">
+var Crate = {};
+</script>
 </head>
 <body>
 <div class="container">
@@ -21,7 +24,8 @@
         <span class="visible-desktop">Desktop</span>
     </div>
     <%- partial('header') %>
-    <div class="mainContent">
+    <!-- adding row-fluid as only adding mainContent breaks responsive styles -->
+    <div class="mainContent row-fluid">
         <%-body%>
     </div>
     <%- partial('footer') %>
