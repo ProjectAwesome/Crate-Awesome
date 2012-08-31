@@ -30,6 +30,7 @@
 }
 .searchBarPhone input.searchInput {
     margin-top:4px;
+    width:180px;
 }
 .searchBarPhone .searchTitle {
     margin:0 10px 0 12px;
@@ -156,8 +157,9 @@ input.searchInput {
 /* FOOTER */
 
 .phoneFooterCol {
+    float:left;
     display:inline-block;
-    width:150px;
+    width:140px;
 }
 .phoneFooterCol .iconLink {
     dipslay:block !important;
@@ -349,6 +351,9 @@ input.searchInput {
     .footer {
         /*visibility:hidden;*/
     }
+    #normalFooter {
+        width:100%;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -365,6 +370,9 @@ input.searchInput {
     }
     .footer {
         /*visibility:hidden;*/
+    }
+    #normalFooter {
+        width:100%;
     }
 }
 
@@ -385,6 +393,9 @@ input.searchInput {
     }
     .navbar .nav ul {
         width:147px;
+    }
+    #normalFooter {
+        width:780px;
     }
     #normalFooter ul {
         margin-left:0;
