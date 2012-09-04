@@ -58,12 +58,13 @@
     display: block;    
     float: left;
     width: 100%;
+    height: 100%;
 }
 #categoryFeature p a span{    
     float: left;  
     color: #fff;
     font: bold 1em/2.8em Helvetica,Arial,sans-serif;   
-    height:33.2%;     
+    height:100%;     
     overflow: hidden;
     width: 100%;     
     background-color: #999;
@@ -133,7 +134,7 @@
         display: table-cell;
         vertical-align: bottom;
         height: 81px;
-        background-color: #CCC;
+        background-color: #901C3B;
     }
     #categoryFeature p a span{    
         float: left;  
@@ -152,8 +153,8 @@
     .width20p {       
         background-color: #f0f0f0;
         border: 1px solid #999;
-        width: 24.3%;       
-        margin: 0;
+        width: 100%;        
+        margin: 0 3px 3px 0;
     }
     .width70p {
         width: 100%;
@@ -175,7 +176,7 @@
     }
     #categoryFeature p{       
         background-color: #901C3B;
-        color: #fff;       
+        color: #999;       
         display: none;
     }   
     #categoryFeature p a span{
