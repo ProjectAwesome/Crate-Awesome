@@ -61,19 +61,13 @@
 }
 #categoryFeature p a span{    
     float: left;  
-    color: #000;
-    font: bold 1.5em/2em Helvetica,Arial,sans-serif;
-    /*background-color: RGBA(132,128,127, .7);*/ 
-    height: 80px;     
+    color: #fff;
+    font: bold 1em/2.8em Helvetica,Arial,sans-serif;   
+    height:33.2%;     
     overflow: hidden;
-    width: 100%; 
-    border-left: 5px solid #FFF;
-    background: -moz-linear-gradient(top, #d6ddde 0%, #bfbdbd 99%, #6c966c 100%, #8d717f 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6ddde), color-stop(99%,#bfbdbd), color-stop(100%,#6c966c), color-stop(100%,#8d717f)); /* Chrome,Safari4+ */  
-    -moz-border-radius-bottomright: 5px 10px;
-    border-bottom-right-radius: 5px 10px;
-    -moz-border-radius-topmright: 5px 10px;
-    border-top-right-radius: 5px 10px;
+    width: 100%;     
+    background-color: #999;
+    border-radius: 3px;
 }
 #categoryFeature p a:hover span{  
     background: #84807F;
@@ -84,57 +78,96 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
     .width20p {
-        background: -moz-linear-gradient(top, #d6ddde 0%, #bfbdbd 99%, #6c966c 100%, #8d717f 100%); /* FF3.6+ */
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6ddde), color-stop(99%,#bfbdbd), color-stop(100%,#6c966c), color-stop(100%,#8d717f)); /* Chrome,Safari4+ */ 
-        width: 24.7%;
+        background-color: #f0f0f0;
+        width: 24.3%;
         height: 120px;
         margin: 0 3px 3px 0;
+        border: 1px solid #999;
     }
     h2 {
         font: bold 1.2em/2.5em Helvetica,Arial,sans-serif;
         color: black;
         vertical-align: bottom;
-        padding: 75px 0 5px 10px;
+        padding: 0;
     }
     h2 a {         
         color: black;   
+    }    
+    #categoryFeature p {
+        display: block;
+        width: 100%;
+        float: left;
+        margin-bottom: 5px;
+        display: table-cell;
+        vertical-align: bottom;
+        height: 81px;
+        background-color: #CCC;
+    }
+    #categoryFeature p a span{    
+        float: left;  
+        color: #fff;
+        font: bold 1em/2.8em Helvetica,Arial,sans-serif;   
+        height:100%;     
+        overflow: hidden;
+        width: 100%;     
+        background-color: transparent;
+        border-radius: 0;
     }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
     .width20p {       
-        background: -moz-linear-gradient(top, #d6ddde 0%, #bfbdbd 99%, #6c966c 100%, #8d717f 100%); /* FF3.6+ */
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6ddde), color-stop(99%,#bfbdbd), color-stop(100%,#6c966c), color-stop(100%,#8d717f)); /* Chrome,Safari4+ */ 
-        width: 24.7%;
+        background-color: #f0f0f0;
+        border: 1px solid #999;
+        width: 24.3%;
         height: 120px;
-        margin: 0 3px 3px 0;
+        margin: 0;
+    }
+    .width70p {
+        width: 100%;
+        float: left;
+        position: relative; 
+        display: inline;
+    }
+    .width30p{
+        width: 100%;       
     }
     h2 {         
         font: bold 1.2em/2.5em Helvetica,Arial,sans-serif;
-        color: black;
-        vertical-align: bottom;
-        padding: 75px 0 5px 15px;
+        color: black;        
+        padding: 0;
     }
     h2 a {         
         color: black;   
     }
+    #categoryFeature p{       
+        background-color: #901C3B;
+        color: #fff;       
+        display: none;
+    }   
+    #categoryFeature p a span{
+        background-color: #901C3B;
+        color: #fff; 
+    }
+    #categoryFeature >:first-child{
+        display: block;
+    } 
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) { 
     .width20p {       
-        background: -moz-linear-gradient(top, #d6ddde 0%, #bfbdbd 99%, #6c966c 100%, #8d717f 100%); /* FF3.6+ */
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6ddde), color-stop(99%,#bfbdbd), color-stop(100%,#6c966c), color-stop(100%,#8d717f)); /* Chrome,Safari4+ */ 
+        background-color: #f0f0f0;
+        border: 1px solid #999;
         width: 100%;
         height: 35px;
         margin: 0 3px 3px 0;
     }
     h2 {         
         font: bold 1.2em/2.5em Helvetica,Arial,sans-serif;
-        color: black;
-        vertical-align: bottom;
-        padding: 2px;
+        color: black;        
+        padding: 0;
     }
     h2 a {         
         color: black;   
